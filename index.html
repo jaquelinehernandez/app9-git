@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+<title>app9 GEOLOCALIZADOR</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app9-tema.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+</head> 
+
+<body>
+<div data-role="page" id="principal" data-theme="a">
+ <div data-role="header" data-position="fixed" data-tap-toggle="false">
+ <h1> Geolocalizador </h1>
+ </div>
+ 
+ <div data-role="main" class="ui-content">
+ <div class="ui-btn" id="posicion"> posicion en msg.alerta </div>
+ <div class="ui-btn" id="watch"> posicion en movimiento(watch) </div>
+ <div>
+ <div>LATITUD:<sapn id="latitud"> </sapn></div>
+ <div>LONGITUD:<sapn id="longitud"> </sapn></div>
+ <div>ALTITUD:<sapn id="altitud"> </sapn></div>
+ <div>ACCURACY:<sapn id="accuracy"> </sapn></div>
+ <div>ALT.ACCURACY:<sapn id="aaccuracy"> </sapn></div>
+ <div>HEADING:<sapn id="headingg"> </sapn></div>
+ <div>SPEED:<sapn id="speed"> </sapn></div>
+ <div>TIMESTAMP:<sapn id="timestamp"> </sapn></div>
+ </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <h4>Jaqueline Hernandez Romero </h4>
+ <h5> Appp9 GPS </h5>
+ <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+ </div>
+</body>
+</html>
